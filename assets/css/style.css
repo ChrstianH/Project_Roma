@@ -1,0 +1,181 @@
+@font-face {
+    font-family: Santio;
+    src: url("../font/SANTIO/TTF/Santio\ regular.ttf");
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("../font/Roboto/Roboto-Regular.ttf");
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Santio;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50px;
+    background-color: transparent;
+    gap: 1.25rem;
+}
+
+header img {
+    width: 20px;
+}
+
+header a {
+    padding: 0 4rem 0 0;
+}
+
+.parallax {
+    background-image: url("../img/cleo-topper.jpg");
+    min-height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div section:first-of-type {
+    display: flex;
+    font-size: 4.25rem;
+    color: white;
+}
+
+div section:nth-of-type(2) {
+    color: #6BC1A3;
+    font-size: 2.2rem;
+}
+
+div section:nth-of-type(2) p span {
+    color: white;
+}
+
+div section:nth-of-type(3) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+div section:nth-of-type(3) img {
+    height: 105px;
+}
+
+div section:nth-of-type(3) h2 {
+    font-size: 8.69rem;
+    color: #E7BC0E;
+}
+
+div section:nth-of-type(3) p {
+    color: #E7BC0E;
+    font-size: 3.14rem;
+}
+
+div section:nth-of-type(3) p span {
+    color: white;
+    background-color: #333;
+    font-size: 2.64rem;
+}
+
+div section:nth-of-type(4) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+div section:nth-of-type(4) img {
+    height: 105px;
+}
+
+div section:nth-of-type(4) h2 {
+    font-size: 5.98rem;
+    color: #CB91B6;
+}
+
+div section:nth-of-type(4) p {
+    color: #CB91B6;
+    font-size: 3.26rem;
+}
+
+div section:nth-of-type(4) p span {
+    color: white;
+    background-color: #333;
+    font-size: 2.64rem;
+
+}
+
+div section:nth-of-type(5) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+div section:nth-of-type(5) img {
+    height: 105px;
+}
+
+div section:nth-of-type(5) h2 {
+    font-size: 6.94rem;
+    color: #6BC1A3;
+}
+
+div section:nth-of-type(5) p {
+    color: #6BC1A3;
+    font-size: 3.26rem;
+}
+
+div section:nth-of-type(5) p span {
+    color: white;
+    background-color: #333;
+    font-size: 2.64rem;
+}
+
+div section:nth-of-type(6) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+div section:nth-of-type(6) p {
+    color: #7EB8E1;
+    font-size: 2.2rem;
+}
+
+div section:nth-of-type(6) p span {
+    color: white;
+    background-color: #333;
+}
+
+.page7 img {
+    width: 100vw;
+    background-image: url("../img/see.png");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+
+.page8 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: black;
+}
+
+.page8 p {
+    color: white;
+    font-size: 2.94rem;
+}
+
+button {
+    font-family: Roboto;
+    padding: 1rem 1.6rem;
+}
