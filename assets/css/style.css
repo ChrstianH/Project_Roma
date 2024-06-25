@@ -246,6 +246,7 @@ button:hover {
 }
 
 footer {
+    background-color: black;
     text-align: center;
 }
 footer p {
