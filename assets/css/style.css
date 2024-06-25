@@ -69,6 +69,8 @@ header a {
 }
 
 .parallax section:first-of-type :nth-child(2) {
+    margin-top: 9.55rem;
+    margin-bottom: 6.74rem;
     font-family: MrDafoe;
     font-size: 2rem;
     font-weight: 400;
@@ -96,7 +98,7 @@ header a {
     padding-left: 8.23rem;
     padding-top: 9.92rem;
     padding-bottom: 7.03rem;
-    width: 790px;
+    width: 49.37rem;
     margin: 26.29rem auto 0.78rem auto;
 }
 
@@ -124,6 +126,8 @@ header a {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    width: 49.37rem;
+    margin: 0 auto 0 auto;
     padding-left: 8.23rem;
     padding-top: 8.23rem;
     padding-bottom: 5.57rem;
@@ -154,6 +158,10 @@ header a {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    width: 49.37rem;
+    margin: 0 auto;
+    padding-left: 8.23rem;
+    padding-top: 8.23rem;
     padding-bottom: 17.37rem;
 }
 
@@ -181,11 +189,15 @@ header a {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    width: 30.81rem;
+    padding-bottom: 7.75rem;
+    margin: 5.56rem auto 0 auto;
 }
 
 .parallax section:nth-of-type(6) p {
     color: #7EB8E1;
     font-size: 2.2rem;
+    line-height: 3.07rem;
 }
 
 .parallax section:nth-of-type(6) p span {
@@ -193,11 +205,16 @@ header a {
     background-color: #333;
 }
 
-.page7 img {
-    width: 100vw;
+.page7 {
     background-image: url("../img/see.png");
     background-repeat: no-repeat;
-    background-size: 100vw;
+    background-size: cover;
+}
+
+.page7 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .page8 {
@@ -205,14 +222,38 @@ header a {
     flex-direction: column;
     align-items: flex-start;
     background-color: black;
+
 }
 
 .page8 p {
+    width: 21.81rem;
+    margin-left: 8.23rem;
+    margin-top: 8.23rem;
     color: white;
     font-size: 2.94rem;
+    font-family: Inter;
 }
 
 button {
+    margin-top: 2.19rem;
+    margin-left: 8.23rem;
+    margin-bottom: 8.23rem;
     font-family: Roboto;
-    padding: 1rem 1.6rem;
+    padding: 0.8rem 1.6rem;
+}
+button:hover {
+    box-shadow: 0.63rem 0.69rem white;
+}
+
+footer {
+    text-align: center;
+}
+footer p {
+    font-family: Roboto;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+footer p span {
+    font-family: Inter;
 }
