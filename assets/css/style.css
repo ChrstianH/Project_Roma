@@ -1,262 +1,282 @@
 @font-face {
-    font-family: Santio;
-    src: url("../font/SANTIO/TTF/Santio\ regular.ttf");
+  font-family: Santio;
+  src: url("../font/SANTIO/TTF/Santio\ regular.ttf");
 }
 
 @font-face {
-    font-family: Roboto;
-    src: url("../font/Roboto/Roboto-Regular.ttf");
+  font-family: Roboto;
+  src: url("../font/Roboto/Roboto-Regular.ttf");
 }
 
 @font-face {
-    font-family: Inter;
-    src: url("../font/Inter/Inter-Regular.ttf");
+  font-family: Inter;
+  src: url("../font/Inter/Inter-Regular.ttf");
 }
 
 @font-face {
-    font-family: MrDafoe;
-    src: url("../font/MrDafoe/MrDafoe-Regular.ttf");
+  font-family: MrDafoe;
+  src: url("../font/MrDafoe/MrDafoe-Regular.ttf");
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: Santio;
+  font-family: Santio;
 }
 
 header {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    height: 50px;
-    background-color: transparent;
-    gap: 1.25rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  height: 50px;
+  background-color: transparent;
+  gap: 1.25rem;
 }
 
 header img {
-    width: 20px;
+  width: 20px;
 }
 
 header a {
-    padding: 0 4rem 0 0;
+  padding: 0 4rem 0 0;
 }
 
 .parallax {
-    background-image: url("../img/cleo-topper.jpg");
-    min-height: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("../img/cleo-topper.jpg");
+  min-height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -50px;
 }
+
+/* ******* Page 1 ******* */
 
 .parallax section:first-of-type {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    padding-top: 8.23rem;
-    margin-left: 8.23rem;
-    width: 16.62rem;
-    font-family: Inter;
-    font-size: 4.25rem;
-    font-weight: 700;
-    color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-top: 8.23rem;
+  margin-left: 8.23rem;
 }
 
-.parallax section:first-of-type :nth-child(2) {
-    margin-top: 9.55rem;
-    margin-bottom: 6.74rem;
-    font-family: MrDafoe;
-    font-size: 2rem;
-    font-weight: 400;
-    color: #E7BC0E;
-    letter-spacing: -2px;
+.parallax section:first-of-type h1 {
+  width: 16.62rem;
+  font-family: Inter;
+  font-size: 4.25rem;
+  font-weight: 700;
+  color: white;
 }
+
+.parallax section:first-of-type p {
+  margin-top: 9.55rem;
+  margin-bottom: 6.74rem;
+  font-family: MrDafoe;
+  font-size: 2rem;
+  font-weight: 400;
+  color: #e7bc0e;
+  letter-spacing: -2px;
+}
+
+/* ******* Page 2 ******* */
 
 .parallax section:nth-of-type(2) {
-    width: 30.62rem;
-    color: #6BC1A3;
-    font-size: 2.2rem;
-    line-height: 3.07rem;
-    margin-top: 13.35rem;
-    margin-left: 14.81rem;
+  width: 30.62rem;
+  color: #6bc1a3;
+  font-size: 2.2rem;
+  line-height: 3.07rem;
+  margin-top: 13.35rem;
+  margin-left: 14.81rem;
 }
 
 .parallax section:nth-of-type(2) p span {
-    color: white;
+  color: white;
 }
 
-.parallax section:nth-of-type(3) {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding-left: 8.23rem;
-    padding-top: 9.92rem;
-    padding-bottom: 7.03rem;
-    width: 49.37rem;
-    margin: 26.29rem auto 0.78rem auto;
+/* ******* Page 3 ******* */
+
+:nth-of-type(3) {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 8.23rem;
+  padding-top: 9.92rem;
+  padding-bottom: 7.03rem;
+  width: 49.37rem;
+  margin: 26.29rem auto 0.78rem auto;
 }
 
 .parallax section:nth-of-type(3) img {
-    height: 105px;
+  height: 105px;
 }
 
 .parallax section:nth-of-type(3) h2 {
-    font-size: 8.69rem;
-    color: #E7BC0E;
+  font-size: 8.69rem;
+  color: #e7bc0e;
 }
 
 .parallax section:nth-of-type(3) p {
-    color: #E7BC0E;
-    font-size: 3.14rem;
+  color: #e7bc0e;
+  font-size: 3.14rem;
 }
 
 .parallax section:nth-of-type(3) p span {
-    color: white;
-    background-color: #333;
-    font-size: 2.64rem;
+  color: white;
+  background-color: #333;
+  font-size: 2.64rem;
 }
 
-.parallax section:nth-of-type(4) {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 49.37rem;
-    margin: 0 auto 0 auto;
-    padding-left: 8.23rem;
-    padding-top: 8.23rem;
-    padding-bottom: 5.57rem;
+/* ******* Page 4 ******* */
+
+:nth-of-type(4) {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 49.37rem;
+  margin: 0 auto 0 auto;
+  padding-left: 8.23rem;
+  padding-top: 8.23rem;
+  padding-bottom: 5.57rem;
 }
 
 .parallax section:nth-of-type(4) img {
-    height: 105px;
+  height: 105px;
 }
 
 .parallax section:nth-of-type(4) h2 {
-    font-size: 5.98rem;
-    color: #CB91B6;
+  font-size: 5.98rem;
+  color: #cb91b6;
 }
 
 .parallax section:nth-of-type(4) p {
-    color: #CB91B6;
-    font-size: 3.26rem;
+  color: #cb91b6;
+  font-size: 3.26rem;
 }
 
 .parallax section:nth-of-type(4) p span {
-    color: white;
-    background-color: #333;
-    font-size: 2.64rem;
-
+  color: white;
+  background-color: #333;
+  font-size: 2.64rem;
 }
 
-.parallax section:nth-of-type(5) {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 49.37rem;
-    margin: 0 auto;
-    padding-left: 8.23rem;
-    padding-top: 8.23rem;
-    padding-bottom: 17.37rem;
+/* ******* Page 5 ******* */
+
+:nth-of-type(5) {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 49.37rem;
+  margin: 0 auto;
+  padding-left: 8.23rem;
+  padding-top: 8.23rem;
+  padding-bottom: 17.37rem;
 }
 
 .parallax section:nth-of-type(5) img {
-    height: 105px;
+  height: 105px;
 }
 
 .parallax section:nth-of-type(5) h2 {
-    font-size: 6.94rem;
-    color: #6BC1A3;
+  font-size: 6.94rem;
+  color: #6bc1a3;
 }
 
 .parallax section:nth-of-type(5) p {
-    color: #6BC1A3;
-    font-size: 3.26rem;
+  color: #6bc1a3;
+  font-size: 3.26rem;
 }
 
 .parallax section:nth-of-type(5) p span {
-    color: white;
-    background-color: #333;
-    font-size: 2.64rem;
+  color: white;
+  background-color: #333;
+  font-size: 2.64rem;
 }
 
+/* ******* Page 6 ******* */
+
 .parallax section:nth-of-type(6) {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 30.81rem;
-    padding-bottom: 7.75rem;
-    margin: 5.56rem auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 30.81rem;
+  padding-bottom: 7.75rem;
+  margin: 5.56rem auto 0 auto;
 }
 
 .parallax section:nth-of-type(6) p {
-    color: #7EB8E1;
-    font-size: 2.2rem;
-    line-height: 3.07rem;
+  color: #7eb8e1;
+  font-size: 2.2rem;
+  line-height: 3.07rem;
 }
 
 .parallax section:nth-of-type(6) p span {
-    color: white;
-    background-color: #333;
+  color: white;
+  background-color: #333;
 }
 
+/* ******* Page 7 ******* */
+
 .page7 {
-    background-image: url("../img/see.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("../img/see.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .page7 img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    margin-bottom: -2px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-bottom: -2px;
 }
 
-.page8 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    background-color: black;
+/* ******* Page 8 ******* */
 
+.page8 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: black;
 }
 
 .page8 p {
-    width: 21.81rem;
-    margin-left: 8.23rem;
-    margin-top: 8.23rem;
-    color: white;
-    font-size: 2.94rem;
-    font-family: Inter;
+  width: 21.81rem;
+  margin-left: 8.23rem;
+  margin-top: 8.23rem;
+  color: white;
+  font-size: 2.94rem;
+  font-family: Inter;
 }
 
 button {
-    margin-top: 2.19rem;
-    margin-left: 8.23rem;
-    margin-bottom: 8.23rem;
-    font-family: Roboto;
-    padding: 0.8rem 1.6rem;
+  margin-top: 2.19rem;
+  margin-left: 8.23rem;
+  margin-bottom: 8.23rem;
+  font-family: Roboto;
+  padding: 0.8rem 1.6rem;
 }
 button:hover {
-    box-shadow: 0.63rem 0.69rem white;
+  box-shadow: 0.63rem 0.69rem white;
 }
 
+/* ******* Footer ******* */
+
 footer {
-    background-color: black;
-    color: white;
-    text-align: center;
+  background-color: black;
+  color: white;
+  text-align: center;
 }
 footer p {
-    font-family: Roboto;
-    font-size: 0.8rem;
-    font-weight: 400;
+  font-family: Roboto;
+  font-size: 0.8rem;
+  font-weight: 400;
 }
 
 footer p span {
-    font-family: Inter;
+  font-family: Inter;
 }
